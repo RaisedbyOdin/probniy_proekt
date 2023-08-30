@@ -70,10 +70,66 @@ blockquote {
 
 .cover {
   padding: 7px 24px 30px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+}
+
+.cover__title {
+  width: 100%;
+  color: #FFF;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .intro {
   padding: 0px 20px 38px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: #CCC;
+  font-size: 16px;
+}
+
+.intro__title {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.intro__date {
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .reasons {
